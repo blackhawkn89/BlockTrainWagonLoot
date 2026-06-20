@@ -5,7 +5,7 @@ namespace Oxide.Plugins
     [Info("BlockTrainWagonLoot", "MrHawk", "1.0.0")]
     [Description("Removes the unlootable/bugged wagons")]
 
-    public class BlockTrainWagonUnloadableLoot : RustPlugin
+    public class BlockTrainWagonLoot : RustPlugin
     {
         private void OnServerInitialized()
         {
